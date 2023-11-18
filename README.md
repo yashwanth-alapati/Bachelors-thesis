@@ -1,6 +1,6 @@
 # Transfer-Learning
 
-I worked on this project for Bacehlor's thesis along with two students from SASTRA University-School of Computing.
+I worked on this project for Bacehlor's thesis along with two students from SASTRA University-School of Computing.<br>
 <br>
 Summary of the project:
 * Utilize Deep learning techniques to classify leaves into healthy and unhealthy categories.
