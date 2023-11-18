@@ -1,7 +1,8 @@
 # Transfer-Learning
 
-I worked on this project along with two other students from SASTRA University for Bacehlor's thesis.
-Objective of the project:
+I worked on this project for Bacehlor's thesis along with two students from SASTRA University-School of Computing.
+
+Summary of the project:
 * Utilize Deep learning techniques to classify leaves into healthy and unhealthy categories.
 * Transfer learning methods are used for classification.
 * Models are compared based on the following evaluation metrics: precision,recall and accuracy.
