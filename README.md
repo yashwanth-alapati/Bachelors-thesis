@@ -26,6 +26,7 @@ Number of images in healthy = 152
 The number of images in the healthy category is 152 and the other categories have 1000 each. The imbalance in the data is of the ratio 1 : 6.5. Imbalanced classifications pose a challenge for predictive modelling as most of the deep learning algorithms will have poor predictive accuracy as there isn’t enough data for the model to learn the features of the minority class thus the images from the minority class will be classified wrongly.
 #### RandomOverSampler: (Novelty)
 To solve the above problem, RandomOverSampler was used which randomly chooses samples from the minority class and duplicates them with replacement in the dataset. This automatically balances the minority classes with the majority class/classes. The major demerit of this method is that it may cause overfitting of data in few models as the same samples of data are being duplicated and used for training purposes.
+
 ![image](https://github.com/yashwanth-alapati/Transfer-Learning/assets/145064639/9340046d-99f7-4bba-8217-e4dd484dafdf)
 
 
@@ -41,10 +42,6 @@ Among all the four given models, ResNet50 outperforms the other models. The mode
 ### Interactive WebApp for prediction( GUI ):
 An interactive web application was developed which uses the ResNet50 model trained on the given dataset for classifying newly uploaded images.
 The web-app was developed using the streamlit package in python. Streamlit is an open source app framework which is used to build webapps for machine learning and data science related projects in a short period of time.
-
-![image](https://user-images.githubusercontent.com/69286061/179724560-0545c88a-a0c9-4c50-9297-102015899950.png)
-
-![image](https://user-images.githubusercontent.com/69286061/179724637-fd24fd26-3849-4cc3-8111-ad4e2f3a79e5.png)
 
 
 ## Conclusion
