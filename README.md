@@ -11,7 +11,8 @@ The proposed methodology for classifying the potato leaf diseases is carried out
 - Choosing the best performing model
 - Interactive web app for prediction.
 
-![image](https://user-images.githubusercontent.com/69286061/179724067-2a126d59-b976-4d3a-8836-21da596babf0.png)
+![image](https://github.com/yashwanth-alapati/Transfer-Learning/assets/145064639/199836e5-d3c0-4e27-b0b1-75e774b79a24)
+
 
 ### Dataset Collection:
 The dataset for the potato leaf diseases was obtained from the PlantVillage dataset, which was published by David. P. Hughes, Marcel Salathe. The datasets include over 50,000 images of 14 crops such as potatoes, grapes, tomato, apples etc.\
