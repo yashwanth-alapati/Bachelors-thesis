@@ -26,7 +26,8 @@ Number of images in healthy = 152
 The number of images in the healthy category is 152 and the other categories have 1000 each. The imbalance in the data is of the ratio 1 : 6.5. Imbalanced classifications pose a challenge for predictive modelling as most of the deep learning algorithms will have poor predictive accuracy as there isn’t enough data for the model to learn the features of the minority class thus the images from the minority class will be classified wrongly.
 #### RandomOverSampler: (Novelty)
 To solve the above problem, RandomOverSampler was used which randomly chooses samples from the minority class and duplicates them with replacement in the dataset. This automatically balances the minority classes with the majority class/classes. The major demerit of this method is that it may cause overfitting of data in few models as the same samples of data are being duplicated and used for training purposes.
-<img width="562" alt="image" src="https://user-images.githubusercontent.com/69286061/179724424-fd70e169-887c-4160-89f7-cc67096e7721.png">
+![image](https://github.com/yashwanth-alapati/Transfer-Learning/assets/145064639/9340046d-99f7-4bba-8217-e4dd484dafdf)
+
 
 
 #### ImageDataGenerator:
