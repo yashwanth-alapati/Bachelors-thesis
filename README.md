@@ -5,8 +5,8 @@ The objective of this project is to present a system to classify the leaves into
 The proposed methodology for classifying the corn leaf and potato leaf diseases is carried out in five phases. The work flow of the steps involved is shown in Figure 3.1.1.
 *  Dataset Collection
 *  Data Preprocessing
-    ○ RandomOverSampler
-    ○ ImageDataGenerator
+*      RandomOverSampler
+*       ImageDataGenerator
 * Implementing the models
 * Choosing the best performing model
 * Interactive web app for prediction.
